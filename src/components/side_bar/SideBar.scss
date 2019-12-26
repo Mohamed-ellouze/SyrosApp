@@ -1,0 +1,29 @@
+html, body, .home-page, .app, #root{
+    height: 100%;
+}
+.side-bar{
+    border : solid;
+    width: fit-content;
+    height: 100%;
+    .module{
+        display: flex; 
+        justify-content: space-between;
+        flex-direction: column;
+        .menu-title{
+            display: flex;
+            height: 50px;
+            align-items: center;
+        }
+        
+
+    }
+   
+}
+.fas, .far{
+    font-size: 25px;
+}
+
+
+.menu-title:hover{
+    background-color: gray;
+}

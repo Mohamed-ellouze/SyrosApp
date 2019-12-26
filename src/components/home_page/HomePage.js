@@ -4,7 +4,7 @@ import SideBar from '../side_bar/SideBar';
 class HomePage extends Component {
  render(){
   return (
-    <div>
+    <div className="home-page">
         <SideBar/>
     </div>
   );
